@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+body > * {
+    display: inline-block;
+}
+
+.score-div {
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+}
+
+.score-div > * {
+    color: aliceblue;
+}
+
+.score {
+    display: block;
+    position: relative;
+    top: 10px;
+}
